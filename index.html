@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust | Home</title>
+    <link rel="stylesheet" href="landing.styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header data-aos="fade-down">
+        <a href="/" class="rustLogo"><img src="assets/logo.png" alt="logo"></a>
+        <button class="burgerButton" onclick="openBurgerMenu()"><i class='bx bx-menu'></i></button>
+    </header>
+    <div class="burgerMenu" id="burgerMenu">
+        <a target="_blank" href="https://rust.facepunch.com/news/" id="newsLink" class="menuLink">NEWS</a>
+        <div class="miniLinks" id="newsList">
+            <a href="#" class="miniLink">Link test</a>
+            <a href="#" class="miniLink">Link test</a>
+            <a href="#" class="miniLink">Link test</a>
+        </div>
+        <a target="_blank" href="https://rust.facepunch.com/companion/" id="companionLink" class="menuLink">Companion</a>
+        <div class="miniLinks" id="companionList">
+            <a href="#" class="miniLink">Link test</a>
+            <a href="#" class="miniLink">Link test</a>
+            <a href="#" class="miniLink">Link test</a>
+        </div>
+        <a target="_blank" href="https://rust.facepunch.com/skins/" class="menuLink">Official Skins</a>
+        <a target="_blank" href="https://rust.facepunch.com/redeem/" class="menuLink">Redeem</a>
+        <a target="_blank" href="https://store.steampowered.com/app/252490/Rust/" class="menuLink">BUY RUST</a>
+    </div>
+    <section class="trailerSection">
+        <video id="videoPlayer" autoplay loop muted>
+            <source src="assets/trailer.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section class="infoSection">
+        <div class="topPart">
+            <div class="topBlock textBlock">
+                <h2 class="landingTitle">Explore<br>Build<br>Survive</h2>
+                <div class="landingDescription">The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife and other inhabitants, the environment, other survivors. Do whatever it takes to last another night.</div>
+            </div>
+            <div class="topBlock buyBlock">
+                <img class="buyLogo" src="assets/logo.png" alt="logotype">
+                <a target="_blank" href="https://store.steampowered.com/app/252490/Rust/" class="buyButton">BUY RUST</a>
+            </div>
+        </div>
+        <div class="quote">“Rust is one of the cruelest games on Steam, and<br>that's what makes it so compelling.”</div>
+        <div class="iconsLine">
+            <img src="assets/pcIcon.png" alt="pcIcon" class="icon">
+            <img src="assets/xboxIcon.png" alt="xboxIcon" class="icon">
+            <img src="assets/psIcon.png" alt="psIcon" class="icon">
+        </div>
+    </section>
+    
+    <section class="newsSection">
+        <a class="sectionTagA" href="https://www.youtube.com/watch?v=p-AcOf4L0zw&t=0:00s">Last NEWS</a>
+        <h2 class="sectionContent">Lighting The Way</h2>
+        <div class="sectionDescription">This month we bring you Tutorial Island, Night time visibility,<br>Vendor UI refresh, Item Store rework, and much more!</div>
+    </section>
+
+    <section class="twitchSection">
+        <a target="_blank" href="https://twitch.facepunch.com/" class="getDrops">GET TWITCH DROPS</a>
+    </section>
+
+    <footer>
+        <div class="newsBlock">
+            <h3 class="blockTitle">Newsletter</h3>
+            <div class="blockDescription">Recieve monthly updates straight to your inbox</div>
+            <div class="subscribeLine">
+                <input type="text" placeholder="you@emailaddress.com" required class="subInput">
+                <a href="https://playrust.us3.list-manage.com/subscribe/post?u=a77cf02714733d8fed3c801a8&id=d9ec395bae&f_id=003010e2f0"><button type="submit" class="subButton">SUBSCRIBE</button></a>
+            </div>
+        </div>
+        <div class="creatorsLine">
+            <img src="assets/rust.svg" alt="rustLogo" class="creatorLogo">
+            <img src="assets/facepunch.svg" alt="facepunchLogo" class="creatorLogo">
+        </div>
+        <div class="linksBlock">
+            <div class="copyright">© 2024 Facepunch Studios. All<br>rights reserved.</div>
+            <div class="socialLinks">
+                <a target="_blank" href="https://www.tiktok.com/@fcpnchrust" class="socialLink"><img src="assets/tiktok.png" alt="social"></a>
+                <a target="_blank" href="https://discord.com/invite/rust" class="socialLink"><img src="assets/discord.png" alt="social"></a>
+                <a target="_blank" href="https://www.instagram.com/fcpnch/" class="socialLink"><img src="assets/instagram.png" alt="social"></a>
+                <a target="_blank" href="https://www.facebook.com/facepunchrust/" class="socialLink facebook"><img src="assets/facebook.svg" alt="social"></a>
+                <a target="_blank" href="https://www.youtube.com/c/fcpnch" class="socialLink facebook"><img src="assets/YouTube.png" alt=""></a>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="java.js"></script>
+</body>
+</html>
